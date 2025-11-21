@@ -45,7 +45,7 @@ public class Main {
     }
 
     static int RR(int temp) {
-        rand = random.nextInt(101); // 0~100
+        rand = random.nextInt(101); // 0~100.
 
         if(rand%2 == 0){
             System.out.printf("이게되네 +%d\n", temp);
