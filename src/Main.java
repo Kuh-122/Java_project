@@ -21,7 +21,7 @@ public class Main {
 
         System.out.println("이름: " + player.name + " 초기값: " + point);
 
-        out : while(temp != 0){
+         out : while(temp != 0){
             temp = in.nextInt();
 
             if (temp == -1){
@@ -30,7 +30,6 @@ public class Main {
             }
             else if (temp > point) {
                 System.out.println("배보다 배꼽이 더 크다");
-                continue;
             }
 
             else {
@@ -42,10 +41,11 @@ public class Main {
                 System.out.println("현재 포인트: " + point);
             }
         }
+        System.out.println("끝");
     }
 
     static int RR(int temp) {
-        rand = random.nextInt(101); // 0~100..
+        rand = random.nextInt(101); // 0~100.
 
         if(rand%2 == 0){
             System.out.printf("이게되네 +%d\n", temp);
